@@ -29,8 +29,14 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# local env files
-.env*.local
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
 
 # typescript
 *.tsbuildinfo
+
+package-lock.json
